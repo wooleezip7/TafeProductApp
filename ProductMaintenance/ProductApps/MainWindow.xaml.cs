@@ -38,6 +38,7 @@ namespace ProductApps
                 totalPaymentTextBlock.Text = Convert.ToString(cProduct.TotalPayment);
                 totalChargeTextBlock.Text = (myPayment + 25.0m).ToString();
                 totalChargeAddingWrapTextBlock.Text = (myPayment + 25.0m + 5.0m).ToString();
+                afterGstTextBlock.Text = ((myPayment + 25.0m + 5.0m) * 1.1m ).ToString();
 
 
             }
